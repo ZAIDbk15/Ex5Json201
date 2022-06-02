@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <Spinner
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/sp1"
+       android:layout_marginBottom="10dp"
+
+
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="id1 : xxxx "
+        android:textSize="25sp"
+        android:id="@+id/txt_id"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nom : xxxx "
+        android:textSize="25sp"
+        android:id="@+id/txt_nom"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ville : xxxx "
+        android:textSize="25sp"
+        android:id="@+id/txt_ville"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="naissance : xxxx "
+        android:textSize="25sp"
+        android:id="@+id/txt_naissance"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="noteFr : xxxx "
+        android:textSize="25sp"
+        android:id="@+id/txt_noteFr"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="noteHist : xxxx "
+        android:textSize="25sp"
+        android:id="@+id/txt_noteHist"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="noteMath : xxxx "
+        android:textSize="25sp"
+        android:id="@+id/txt_noteMath"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="notePhys: xxxx "
+        android:textSize="25sp"
+        android:id="@+id/txt_notePhys"
+        />
+
+ <ListView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/lst"
+
+     />
+</LinearLayout>
